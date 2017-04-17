@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <title>Test Lab</title>
+</head>
+<body>
+  <div class="container">
+    <br />
+    <div class="row">
+      <div class="col-lg-3">
+        <form id="register_form">
+          <div class="form-group">
+            <label for="first_name">Nombre:</label>
+            <input type="text" class="form-control" id="first_name" name="v1_author[first_name]">
+          </div>
+          <div class="form-group">
+            <label for="last_name">Apellido:</label>
+            <input type="text" class="form-control" id="last_name" name="v1_author[last_name]">
+          </div>
+          <div class="form-group">
+            <label for="bio">Biografía:</label>
+            <textarea class="form-control" id="bio" name="v1_author[bio]"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default" data-operation="register">Save</button>
+          <button type="reset" class="btn btn-default">Cancel</button>
+        </form>
+      </div>
+      <div class="col-lg-9">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Biography</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
